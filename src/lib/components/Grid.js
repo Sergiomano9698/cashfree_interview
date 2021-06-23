@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/grid.css'
 
-const Button = (props) => {
+const Button = ({ children, ...props }) => {
 
     
    return (
@@ -10,8 +10,9 @@ const Button = (props) => {
         // </div>
 
         <div class={props.columns}>
-            One of three columns
+            {children}
         </div>
-   )
-}
+   );
+};
+
 export default Button;

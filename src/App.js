@@ -15,10 +15,19 @@ function App() {
 
       <Container>
         <Row className="row remove-gutters">
-          <Grid columns="column column-3"   />
-          <Grid columns="column column-3"   />
-          <Grid columns="column column-3"   />
-          <Grid columns="column column-3"   />
+          <Grid columns="column column-3">
+              One of three column
+          </Grid>
+          <Grid columns="column column-3">
+              One of three column
+          </Grid>
+          <Grid columns="column column-3">
+              One of three column
+          </Grid>
+          <Grid columns="column column-3">
+              One of three column
+          </Grid>
+
         </Row>
       </Container>
       </header>
